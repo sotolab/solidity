@@ -20,6 +20,7 @@
 			console.log("connected");
 		} else {
 			console.log("not connected")
+			throw new Error('Error');
 		}
 		var vc = web3.eth.contract(
 
